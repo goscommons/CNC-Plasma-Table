@@ -1,0 +1,10 @@
+Test the axes if they have accurate stepping. (They move the exact distance they supposed to) Move a specific distance and confirm with measureing tape
+Find out the max speed the axes move and define it in grbl and in CAM. Maybe reduce to 80%
+
+
+Check if the kerf that is cut is the same as the CAM setting. (So it can offset the paths correct)
+Feed rate. Make 5 cuts of 6 inches each, with 10ipm difference. Start with 20ipm less than the suggested value. This has to be done for every material/thickness and wrote down. A Jet Tool for each ideal cut has to be made (etc. Steel 3/16" 50ipm, or Aluminum 1/4" 60ipm)
+Cutting distance. Check for beveling on the side walls of the cut. Adjust the THC voltage. Wider top means the check voltage is too high, and the opposite
+Pierce delay. The torch has to move just 0.1sec before the arc. 
+Pierce height. Start with 0.2in and observe if the arc is wondering around. It should go right on the material
+Pause at the end of the cut. Do we need it?
